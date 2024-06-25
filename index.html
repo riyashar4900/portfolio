@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+<style>
+   
+
+body {
+ background-color: white;
+background-image: url('backg.png');
+mix-blend-mode: multiply;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;back
+}
+.left{
+    font-size: 1.5rem;
+}
+
+.left img{
+    margin-top: 13px;
+    padding: 19px;
+    width: 69px;
+    /* margin-top: 22px;
+    padding: 19px;
+    width: 70px; */
+    /* margin-top: 44px;
+    padding: 52px;
+    width: 92px; */
+   mix-blend-mode: multiply;
+
+}
+
+
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 40px;
+/* ----------------------------------------  edditing */
+/* background-image: url(logo2.jfif);  */
+background-color: rgb(252, 191, 191);
+border-bottom: 2px solid rgb(245, 145, 195);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 23px;
+}
+
+nav ul li a{
+text-decoration: none;
+/* ------------------------------- editing */
+color: rgb(5, 5, 5);
+font-size: 1.2rem;
+}
+
+nav ul li a:hover{
+color: white;
+    /* color: rgb(253, 127, 127); */
+font-size: 1.2rem;
+background-color: white;
+/* background-color: rgb(153, 152, 152); */
+border-radius: 7px;
+font-size: 1.3rem;
+border-radius: 9px;
+color: black;
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 80px 0; */
+  
+}
+
+/* 30 tha yha phle  */
+.first > div{
+    width: 35%;
+}
+
+.leftside{
+   margin: 30px;
+    font-size: 3rem;
+    align-items: center;
+}
+.rightside img{
+ width: 120%;
+ /* height: 80%; */
+   margin-top: 33px; 
+   /* mix-blend-mode: multiply;  */
+
+}
+
+.purple{
+    color: rgb(128, 59, 240);
+}
+
+.purple:hover{
+    font-size: 4.1rem;
+    color: rgb(87, 13, 206);
+}
+
+.gitlogo{
+display: inline;
+margin-top: 22px;
+margin: 175px;
+padding: 1px;
+width: 69px;
+mix-blend-mode: multiply;
+border: 2px solid red;
+}
+
+/* .btn{
+    margin:5px 20%;
+    border-radius: 5px;
+    border-color: rgb(139, 138, 138);
+}
+                                                                                         button yeh rha 
+.btn:hover{
+background-color: rgb(170, 169, 169);
+color: white;
+font-size: 1.0rem;
+} */
+
+/* #ser{
+    position: sticky;
+    border-radius: 7px;
+    cursor: pointer;
+} */
+.lin{
+    width: 50px;
+    height: 34px;
+    margin: 2px;
+    padding: 2px;
+}
+
+.git{
+    width: 50px;
+    height: 34px;
+    padding-left: 2px;
+    margin: 2px;
+    padding: 2px;
+}
+
+.face{
+    width: 40px;
+    height: 34px;
+    margin: 2px;
+    padding: 2px;
+}
+
+.goog{
+    width: 48px;
+    height: 34px;
+    margin: 2px;
+    padding: 2px;
+}
+</style>
+</head>
+<body>
+   
+    <header>
+        <nav>
+            <div class="left"><img src="LOGO.PNG" alt="error"></div>
+            <div class="right">
+                <ul>
+                   <li><a href="/"><b>ABOUT</b></a></li>
+                    <li><a href="/"><b>PROJECTS</b></a></li>
+                    <li><a href="/"><b>HOME</b></a></li>
+                    <li class="cont"><a href="/"><b>CONTACT ME</b></a></li>
+                </ul>
+            </div>
+            <!-- <div>
+                <input type="text" id="ser" placeholder="Search here">
+            </div> -->
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftside"><b>Hi , i'm <span class="purple">Riya</b></span>
+                <div> <b>and i am passionate Frontend Developer</b> </div>
+                </div>
+                
+            <div class="rightside">
+                <img src="img.png" alt="error">
+
+            </div>
+        </section>
+        <div class="gitlogo"> 
+            <a href="https://github.com/"><img class="git" src="git.jfif" alt="error"></a>
+            <a href="https://in.linkedin.com/"><img class="lin" src="linkdin.png" alt="error"></a>
+            <a href="https://www.facebook.com/"><img class="face" src="fce.png" alt="error"></a>
+            <a href="https://www.google.com/"><img class="goog" src="goog.png" alt="error"></a>
+            <!-- <img src="git.jfif" alt="error">
+            <img src="git.jfif" alt="error">  -->
+        </div>
+
+        <!-- <button class="btn">Download CV</button>                 button -->
+    </main>
+</body>
+</html>
