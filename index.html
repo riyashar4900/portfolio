@@ -44,8 +44,8 @@ align-items: center;
 height: 40px;
 /* ----------------------------------------  edditing */
 /* background-image: url(logo2.jfif);  */
-background-color: rgb(252, 191, 191);
-border-bottom: 2px solid rgb(245, 145, 195);
+/* background-color: rgb(252, 191, 191); */
+/* border-bottom: 2px solid rgb(245, 145, 195); */
 }
 
 nav ul{
@@ -66,15 +66,13 @@ font-size: 1.2rem;
 }
 
 nav ul li a:hover{
-color: white;
     /* color: rgb(253, 127, 127); */
-font-size: 1.2rem;
-background-color: white;
-/* background-color: rgb(153, 152, 152); */
-border-radius: 7px;
-font-size: 1.3rem;
-border-radius: 9px;
-color: black;
+font-size: 1.4rem;
+/* background-color: rgb(253, 253, 253); */
+border-bottom: 2px solid #f7a3dd;
+border-radius: 5px;
+/* color: black; */
+font-style: bold ;
 }
 
 .first{
@@ -85,16 +83,19 @@ color: black;
   
 }
 
-/* 30 tha yha phle  */
-.first > div{
+/* 30 tha yha phle  */ 
+ .first > div{                                  
     width: 35%;
-}
+} 
+
 
 .leftside{
    margin: 30px;
     font-size: 3rem;
     align-items: center;
 }
+
+
 .rightside img{
  width: 120%;
  /* height: 80%; */
@@ -112,68 +113,88 @@ color: black;
     color: rgb(87, 13, 206);
 }
 
-.gitlogo{
-display: inline;
-margin-top: 22px;
-margin: 175px;
-padding: 1px;
-width: 69px;
-mix-blend-mode: multiply;
-border: 2px solid red;
-}
-
-/* .btn{
-    margin:5px 20%;
+.btn{
+    cursor: pointer;
+    background-color: rgb(170, 169, 169);
+    color: white;
+    font-size: 1.2rem;
+       margin:5px 17% ;
     border-radius: 5px;
     border-color: rgb(139, 138, 138);
 }
-                                                                                         button yeh rha 
+                                                                                         /* button yeh rha  */
 .btn:hover{
-background-color: rgb(170, 169, 169);
-color: white;
-font-size: 1.0rem;
-} */
+/* background-color: rgb(201, 196, 196);
+color: white; */
+font-size: 1.3rem;
+}
 
-/* #ser{
-    position: sticky;
-    border-radius: 7px;
-    cursor: pointer;
-} */
+.link{
+display: inline;
+/* margin-top: 12px; */
+/* margin: 175px;  */
+margin: 550px;
+padding: 1px;
+width: 59px;
+mix-blend-mode: multiply;
+/* border: 2px solid red; */
+-webkit-transition-property: all;
+-webkit-transition-delay: 0.1s ;
+-webkit-transition-timing-function: ease;
+
+}
+
+.link :hover {
+    transform: scale(1.2);
+padding: 1px;
+}
+
 .lin{
     width: 50px;
     height: 34px;
     margin: 2px;
-    padding: 2px;
+    padding: 1px;
 }
 
-.git{
+/* .git{
     width: 50px;
     height: 34px;
     padding-left: 2px;
     margin: 2px;
     padding: 2px;
-}
+} */
+
+.git{
+    width: 40px;
+    height: 34px;
+    padding-left: 2px;
+    margin: 2px;
+    padding: 1px;
+} 
+
 
 .face{
     width: 40px;
     height: 34px;
     margin: 2px;
-    padding: 2px;
+    padding: 1px;
 }
 
 .goog{
-    width: 48px;
+    width: 37px;
     height: 34px;
     margin: 2px;
     padding: 2px;
 }
+
+
 </style>
 </head>
 <body>
    
     <header>
         <nav>
-            <div class="left"><img src="LOGO.PNG" alt="error"></div>
+            <div class="left"><img src="LOGO3.PNG" alt="error"></div>
             <div class="right">
                 <ul>
                    <li><a href="/"><b>ABOUT</b></a></li>
@@ -182,32 +203,31 @@ font-size: 1.0rem;
                     <li class="cont"><a href="/"><b>CONTACT ME</b></a></li>
                 </ul>
             </div>
-            <!-- <div>
-                <input type="text" id="ser" placeholder="Search here">
-            </div> -->
+            
         </nav>
     </header>
     <main>
         <section class="first">
             <div class="leftside"><b>Hi , i'm <span class="purple">Riya</b></span>
-                <div> <b>and i am passionate Frontend Developer</b> </div>
+                <div > <b>and i am passionate Frontend Developer</b> </div>
                 </div>
                 
             <div class="rightside">
-                <img src="img.png" alt="error">
+                <img src="img2.PNG" alt="error">
 
-            </div>
+            </div>   
         </section>
-        <div class="gitlogo"> 
-            <a href="https://github.com/"><img class="git" src="git.jfif" alt="error"></a>
+        <div>
+            <button class="btn">Download CV</button>     
+        </div>  <br><br>
+
+        <div class="link"> 
+            <a href="https://github.com/"><img class="git" src="git2.PNG" alt="error"></a>
             <a href="https://in.linkedin.com/"><img class="lin" src="linkdin.png" alt="error"></a>
             <a href="https://www.facebook.com/"><img class="face" src="fce.png" alt="error"></a>
             <a href="https://www.google.com/"><img class="goog" src="goog.png" alt="error"></a>
-            <!-- <img src="git.jfif" alt="error">
-            <img src="git.jfif" alt="error">  -->
+           
         </div>
-
-        <!-- <button class="btn">Download CV</button>                 button -->
     </main>
 </body>
 </html>
