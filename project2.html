@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+<style>
+body {
+ background-color: white;
+background-image: url('backg.png'); 
+mix-blend-mode: multiply;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%; 
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+.left img{
+    margin-top: 13px;
+    padding: 19px;
+    width: 69px;
+   mix-blend-mode: multiply;
+}
+
+.right ul li{
+    background: -webkit-linear-gradient(rgb(29, 28, 28),rgb(255, 49, 49));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 40px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 23px;
+}
+
+nav ul li a{
+text-decoration: none;
+color: rgb(5, 5, 5);
+font-size: 1.3rem;
+
+}
+
+nav ul li a:hover{
+font-size: 1.5rem;
+background-color: rgb(226, 223, 223);
+border-bottom: 2px solid #3a393a;
+border-radius: 5px;
+font-style: bold ;
+box-shadow: 6px 6px 8px rgba(82, 81, 81, 0.6);
+background: -webkit-linear-gradient(rgb(29, 28, 28),rgb(255, 49, 49));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bor{
+    width: 100%;
+    height: 30cap; 
+    background-image: url('project2.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    opacity: 1;
+}
+.fed{
+    display: flex;
+    margin: 20px;
+    padding: 100px;
+    justify-content: center;
+    color: white;
+    font-size: 5.2rem;
+}
+
+
+p{
+    color: white;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftside{
+   margin: 20px;
+}
+
+.center{
+   margin: 20px;
+}
+.rightside{
+  margin: 20px;
+}
+.cal{
+    display: flex;
+    justify-content: center;
+    color: rgb(36, 35, 35);
+     border: 2px solid rgb(63, 62, 62);
+     box-shadow: 6px 6px 8px rgba(82, 81, 81, 1);
+     border-radius: 12px;
+   font-size: 1.8rem;
+   cursor: pointer;
+   background: -webkit-linear-gradient(rgb(29, 28, 28),rgb(255, 49, 49));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.cal:hover{
+   font-size: 2rem;
+}
+
+.blob{
+    display: flex;
+    justify-content: center;
+    color: rgb(24, 24, 24);
+    box-shadow: 6px 6px 8px rgba(82, 81, 81, 1);
+     border: 2px solid rgb(70, 69, 69);
+     border-radius: 12px;
+     font-size: 1.8rem;
+     cursor: pointer;
+     background: -webkit-linear-gradient(rgb(29, 28, 28),rgb(255, 49, 49));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blob:hover{
+   font-size:2rem;
+}
+
+.land{
+    display: flex;
+    justify-content: center;
+    color: rgb(24, 24, 24);
+     border: 2px solid rgb(83, 83, 83);
+     box-shadow: 6px 6px 8px rgba(82, 81, 81, 1);
+     border-radius: 12px;
+   font-size: 1.8rem;
+   cursor: pointer;
+   background: -webkit-linear-gradient(rgb(29, 28, 28),rgb(255, 49, 49));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.land:hover{ 
+   font-size: 2rem;
+}
+.imga img{
+    width: 213px;
+    height: 149px;
+    display: flex;
+    justify-content: center;
+}
+
+.blob img{
+    width: 213px;
+    height: 149px;
+    display: flex;
+    justify-content: center;
+}
+
+.land img{
+    width: 213px;
+    height: 149px;
+    display: flex;
+    justify-content: center;
+   
+}
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"><img src="LOGO3.PNG" alt="error"></div>
+            <div class="right">
+                <ul>
+                    <li class="home"><a href="index.html"><b>HOME</b></a></li>
+                   <li class="about"><a href="about.html"><b>ABOUT</b></a></li>
+                    <li class="project"><a href="project2.html"><b>PROJECTS</b></a></li>
+                    <li class="skills"><a href="skills.html"><b>SKILLS</b></a></li>
+                    <li class="cont"><a href="cont.html"><b>CONTACT ME</b></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+<section class="bor">
+<h1 class="fed">PROJECT</h1>
+</section>
+<section class="first">
+
+    <div class="leftside">
+        <h1 class="cal">CALCULATOR</h1>
+        <div class="imga">
+            <img src="calc.PNG" alt="error">
+          
+        </div>
+        
+    </div>
+
+    <div class="center">
+           <H1 class="blob">BLOG</H1>
+        <div class="imga2">
+            <img src="blob.PNG" alt="error">
+         </div>
+    </div>   
+
+    <div class="rightside">
+          <H1 class="land">LANDING</H1>
+        <div class="imga3">
+           <img src="landing.PNG" alt="error">
+       </div>
+    </div>   
+        
+    </section>
+
+</body>
+</html>

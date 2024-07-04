@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+<style>
+   
+
+body {
+ background-color: white;
+background-image: url('backg.png'); 
+mix-blend-mode: multiply;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;back
+}
+.left{
+    font-size: 1.5rem;
+}
+
+.left img{
+    margin-top: 13px;
+    padding: 19px;
+    width: 69px;
+   mix-blend-mode: multiply;
+
+}
+
+.right ul li{
+    background: -webkit-linear-gradient(rgb(29, 28, 28),rgb(255, 49, 49));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 40px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 23px;
+}
+
+nav ul li a{
+text-decoration: none;
+color: rgb(5, 5, 5);
+font-size: 1.3rem;
+
+}
+
+nav ul li a:hover{
+font-size: 1.5rem;
+background-color: rgb(226, 223, 223);
+border-bottom: 2px solid #3a393a;
+border-radius: 5px;
+font-style: bold ;
+box-shadow: 6px 6px 8px rgba(82, 81, 81, 0.6);
+background: -webkit-linear-gradient(rgb(29, 28, 28),rgb(255, 49, 49));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ .first > div{                                  
+    width: 35%;
+    font-size: 1.5rem;
+} 
+
+
+ .leftside{
+   margin: 30px;
+    font-size: 3rem;
+    align-items: center;
+    border: 8px;
+  border-style: double;
+  padding: 12px;
+  background: -webkit-linear-gradient(rgb(253, 255, 255) 55%,rgb(182, 227, 248));
+  -webkit-background-border: border;
+  -webkit-border-fill-color:transparent;
+}
+
+
+.leftside h1{
+    text-decoration: underline;
+    margin-left: 104px;
+    background: -webkit-linear-gradient(rgb(29, 28, 28),rgb(238, 22, 238));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rightside img{
+ width: 110%;
+border: 5px solid white;
+} 
+
+.purple{
+    color: rgb(128, 59, 240);
+}
+
+.purple:hover{
+    font-size: 4.1rem;
+    color: rgb(87, 13, 206);
+}
+
+.btn{
+    cursor: pointer;
+    background-color: rgb(170, 169, 169);
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+       margin:5px 17% ;
+    border-radius: 5px;
+    border-color: rgb(170, 169, 169);
+    border-top: 2px solid rgb(160, 159, 159);
+    border-bottom: 2px solid black;
+  box-shadow: 6px 6px 9px rgba(7, 7, 7, 0.6);
+}
+
+.btn:hover{
+font-size: 1.3rem;
+}
+
+.link{
+display: inline;
+margin: 550px;
+padding: 1px;
+width: 59px;
+mix-blend-mode: multiply;
+-webkit-transition-property: all;
+-webkit-transition-delay: 0.1s ;
+-webkit-transition-timing-function: ease;
+
+}
+
+.link :hover {
+    transform: scale(1.2);
+padding: 1px;
+box-shadow: 6px 6px 8px rgba(7, 7, 7, 0.6);
+}
+
+.lin{
+    width: 50px;
+    height: 34px;
+    margin: 2px;
+    padding: 1px;
+}
+
+.git{
+    width: 40px;
+    height: 34px;
+    padding-left: 2px;
+    margin: 2px;
+    padding: 1px;
+} 
+
+
+.face{
+    width: 40px;
+    height: 34px;
+    margin: 2px;
+    padding: 1px;
+}
+
+.goog{
+    width: 37px;
+    height: 34px;
+    margin: 2px;
+    padding: 2px;
+}
+
+.text{
+    background: -webkit-linear-gradient(rgb(2, 20, 82) 15%,rgb(3, 170, 3) 45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+</style>
+</head>
+<body>
+   
+    <header>
+        <nav>
+            <div class="left"><img src="LOGO3.PNG" alt="error"></div>
+            <div class="right">
+                <ul>
+                    <li class="home"><a href="index.html"><b>HOME</b></a></li>
+                    <li class="about"><a href="about.html"><b>ABOUT</b></a></li>
+                    <li class="project"><a href="project2.html"><b>PROJECTS</b></a></li>
+                    <li class="skills"><a href="skills.html"><b>SKILLS</b></a></li>
+                    <li class="cont"><a href="cont.html"><b>CONTACT ME</b></a></li>
+                </ul>
+            </div>
+        </nav>
+<br>
+<br>
+    </header>
+   
+    <section class="first">
+
+            <div class="leftside">
+                <h1>ABOUT ME :</h1>
+       <div class="text"> <b>I am passionate and deeply invested in mastering frontend development as a student, driven by a passion for creating visually appealing and user-friendly websites. Proficient in HTML, CSS, and JavaScript, I combine technical skills with a strong aesthetic sense to craft engaging digital experiences. Through continuous learning and experimentation, I aim to stay ahead in an ever-evolving field, embracing new technologies and design trends. My goal is to contribute creatively to projects, leveraging my understanding of responsive design and accessibility principles to build interfaces that not only function flawlessly but also leave a lasting impact on users.</b>
+        </div>
+    </div>
+        <div class="rightside">
+            <img src="about2.PNG" alt="error">
+
+        </div>   
+       
+    </section> 
+   
+</body>
+</html>
